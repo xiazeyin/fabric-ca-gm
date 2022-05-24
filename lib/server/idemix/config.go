@@ -9,7 +9,7 @@ package idemix
 import (
 	"path/filepath"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
 )
 
 const (

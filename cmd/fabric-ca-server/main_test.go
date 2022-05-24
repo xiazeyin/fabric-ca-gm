@@ -16,14 +16,14 @@ import (
 	"regexp"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/metadata"
+	"github.com/xiazeyin/gmgo/x509"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

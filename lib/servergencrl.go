@@ -14,13 +14,13 @@ import (
 	"math/big"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/crl"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/crl"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/gmgo/x509"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

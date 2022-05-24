@@ -22,28 +22,28 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/metadata"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mysql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/operations"
-	cadbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	libtls "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	. "github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/metadata"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mysql"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/operations"
+	cadbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	libtls "github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
 )
 
 const (

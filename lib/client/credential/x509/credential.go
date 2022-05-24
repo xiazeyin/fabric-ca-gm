@@ -10,13 +10,13 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

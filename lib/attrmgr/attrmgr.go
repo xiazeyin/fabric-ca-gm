@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 var (

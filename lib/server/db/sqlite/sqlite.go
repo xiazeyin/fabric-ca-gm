@@ -11,10 +11,10 @@ import (
 	"database/sql"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 //go:generate counterfeiter -o mocks/create.go -fake-name Create . Create

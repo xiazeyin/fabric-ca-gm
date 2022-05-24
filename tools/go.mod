@@ -3,7 +3,7 @@ module tools
 go 1.17
 
 require (
-	gitee.com/zhaochuninhefei/fabric-gm v0.0.1
+	github.com/xiazeyin/fabric-gm v0.0.1
 	github.com/AlekSi/gocov-xml v1.0.0
 	github.com/axw/gocov v1.0.0
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616

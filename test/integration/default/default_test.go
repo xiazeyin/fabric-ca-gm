@@ -19,18 +19,18 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/cmd/fabric-ca-client/command"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/metadata"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/fabric-ca-gm/cmd/fabric-ca-client/command"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/metadata"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

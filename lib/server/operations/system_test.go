@@ -14,14 +14,14 @@ import (
 	"path/filepath"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/operations"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/disabled"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/prometheus"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/statsd"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/operations"
+	"github.com/xiazeyin/fabric-gm/common/metrics/disabled"
+	"github.com/xiazeyin/fabric-gm/common/metrics/prometheus"
+	"github.com/xiazeyin/fabric-gm/common/metrics/statsd"
 )
 
 var _ = Describe("System", func() {

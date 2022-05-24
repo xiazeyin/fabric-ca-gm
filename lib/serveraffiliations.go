@@ -11,15 +11,15 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	cadbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/spi"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attr"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	cadbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/fabric-ca-gm/lib/spi"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 func newAffiliationsEndpoint(s *Server) *serverEndpoint {

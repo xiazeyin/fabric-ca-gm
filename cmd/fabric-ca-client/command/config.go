@@ -15,14 +15,14 @@ import (
 	"reflect"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	calog "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/log"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attr"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	calog "github.com/xiazeyin/fabric-ca-gm/internal/pkg/log"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attr"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

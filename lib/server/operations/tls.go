@@ -9,8 +9,8 @@ package operations
 import (
 	"io/ioutil"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 var (

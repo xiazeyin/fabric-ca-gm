@@ -13,10 +13,10 @@ import (
 	"os"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-config-gm/healthz"
 
 	"github.com/stretchr/testify/assert"
 )

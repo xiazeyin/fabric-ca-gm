@@ -9,7 +9,7 @@ package command
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
 )
 
 func TestProcessAttributes(t *testing.T) {

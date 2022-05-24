@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	dbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	dbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
 )
 
 func TestStateUpdate(t *testing.T) {

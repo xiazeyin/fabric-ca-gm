@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 type enrollCmd struct {

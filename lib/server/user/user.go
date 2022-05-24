@@ -11,11 +11,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/spi"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/lib/spi"
+	log "github.com/xiazeyin/zcgolog/zclog"
 	"golang.org/x/crypto/bcrypt"
 )
 

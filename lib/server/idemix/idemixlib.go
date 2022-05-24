@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package idemix
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
-	ecdsa "gitee.com/zhaochuninhefei/gmgo/sm2"
 	"github.com/hyperledger/fabric-amcl/amcl"
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-gm/idemix"
+	ecdsa "github.com/xiazeyin/gmgo/sm2"
 )
 
 // Lib represents idemix library

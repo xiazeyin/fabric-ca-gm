@@ -12,16 +12,16 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	certsql "gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	cr "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/certificaterequest"
-	cadb "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	"github.com/kisielk/sqlstruct"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	certsql "github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	cr "github.com/xiazeyin/fabric-ca-gm/lib/server/certificaterequest"
+	cadb "github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

@@ -14,19 +14,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/x509"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/x509/mocks"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/client/credential/x509"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential/x509/mocks"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
 
-	// "gitee.com/zhaochuninhefei/gmgo/x509"
+	// "github.com/xiazeyin/gmgo/x509"
 	"github.com/stretchr/testify/assert"
 )
 

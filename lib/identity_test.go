@@ -9,10 +9,10 @@ package lib
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	clientcred "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/x509"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	clientcred "github.com/xiazeyin/fabric-ca-gm/lib/client/credential"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential/x509"
 )
 
 func getIdentity(t *testing.T) *Identity {

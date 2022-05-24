@@ -13,12 +13,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix/mocks"
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix/mocks"
+	"github.com/xiazeyin/fabric-gm/idemix"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 const (

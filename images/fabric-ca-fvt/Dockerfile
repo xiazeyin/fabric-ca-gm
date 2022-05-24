@@ -11,13 +11,13 @@ ARG GO_TAGS
 ADD . /build/fabric-ca
 WORKDIR /build/fabric-ca
 RUN go env -w GOPROXY=https://goproxy.cn,direct \
-    && go env -w GOPRIVATE=gitee.com/zhaochuninhefei \
+    && go env -w GOPRIVATE=github.com/xiazeyin \
     && go build -tags "${GO_TAGS}" -ldflags "${GO_LDFLAGS}" \
 	-o /usr/local/bin/fabric-ca-server \
-    gitee.com/zhaochuninhefei/fabric-ca-gm/cmd/fabric-ca-server \
+    github.com/xiazeyin/fabric-ca-gm/cmd/fabric-ca-server \
 	&& go build -tags "${GO_TAGS}" -ldflags "${GO_LDFLAGS}" \
 	-o /usr/local/bin/fabric-ca-client \
-    gitee.com/zhaochuninhefei/fabric-ca-gm/cmd/fabric-ca-client
+    github.com/xiazeyin/fabric-ca-gm/cmd/fabric-ca-client
 
 FROM debian:buster-20210816-slim
 ARG PG_VER

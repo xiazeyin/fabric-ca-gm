@@ -28,9 +28,9 @@ import (
 	"reflect"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/api"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // SearchElement defines the JSON arrays for which to search

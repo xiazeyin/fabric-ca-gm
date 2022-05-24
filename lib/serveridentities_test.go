@@ -14,12 +14,12 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	cadbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attr"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	cadbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
 	"golang.org/x/crypto/ocsp"
 )
 

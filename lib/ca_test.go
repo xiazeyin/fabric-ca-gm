@@ -14,16 +14,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-gm/common/metrics/metricsfakes"
 )
 
 const (

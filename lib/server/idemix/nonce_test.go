@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix/mocks"
-	dmocks "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix/mocks"
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix/mocks"
+	dmocks "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix/mocks"
+	"github.com/xiazeyin/fabric-gm/idemix"
 )
 
 func TestNewNonceManager(t *testing.T) {

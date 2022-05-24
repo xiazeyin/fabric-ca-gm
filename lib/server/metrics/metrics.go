@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package metrics
 
-import "gitee.com/zhaochuninhefei/fabric-gm/common/metrics"
+import "github.com/xiazeyin/fabric-gm/common/metrics"
 
 var (
 	// APICounterOpts define the counter opts for server APIs

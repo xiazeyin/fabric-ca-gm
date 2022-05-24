@@ -10,11 +10,11 @@ import (
 	"encoding/pem"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // RevocationKey represents issuer revocation public and private key

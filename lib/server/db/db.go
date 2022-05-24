@@ -11,9 +11,9 @@ import (
 	"database/sql"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	"github.com/jmoiron/sqlx"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 //go:generate counterfeiter -o mocks/fabricCaDb.go -fake-name FabricCADB . FabricCADB

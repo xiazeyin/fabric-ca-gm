@@ -11,15 +11,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/x509"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/client/credential/x509"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // Identity is fabric-ca's implementation of an identity

@@ -10,11 +10,11 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	cadbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	cadbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
 	"golang.org/x/crypto/ocsp"
 )
 

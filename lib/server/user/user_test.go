@@ -9,11 +9,11 @@ package user_test
 import (
 	"errors"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user/mocks"
 	"golang.org/x/crypto/bcrypt"
 )
 

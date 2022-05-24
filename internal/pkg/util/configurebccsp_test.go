@@ -14,9 +14,9 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/pkcs11"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	"github.com/xiazeyin/fabric-gm/bccsp/pkcs11"
 )
 
 func TestConfigureBCCSP(t *testing.T) {

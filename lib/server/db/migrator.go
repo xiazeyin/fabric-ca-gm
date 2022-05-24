@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package db
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 //go:generate counterfeiter -o mocks/migrator.go -fake-name Migrator . Migrator

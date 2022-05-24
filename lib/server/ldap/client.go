@@ -13,17 +13,17 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	ldap "gitee.com/zhaochuninhefei/fabric-ca-gm/ldap_v2"
-	causer "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/spi"
-	ctls "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/Knetic/govaluate"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	ldap "github.com/xiazeyin/fabric-ca-gm/ldap_v2"
+	causer "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/fabric-ca-gm/lib/spi"
+	ctls "github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 var (

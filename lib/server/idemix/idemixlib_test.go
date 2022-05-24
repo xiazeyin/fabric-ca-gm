@@ -9,10 +9,10 @@ package idemix_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	fabidemix "gitee.com/zhaochuninhefei/fabric-gm/idemix"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	fabidemix "github.com/xiazeyin/fabric-gm/idemix"
 )
 
 func TestIdemixPanic(t *testing.T) {

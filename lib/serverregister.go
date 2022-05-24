@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"net/url"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attr"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 func newRegisterEndpoint(s *Server) *serverEndpoint {

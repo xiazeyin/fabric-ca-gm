@@ -10,11 +10,11 @@ import (
 	"errors"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	"github.com/jmoiron/sqlx"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 func TestDB(t *testing.T) {

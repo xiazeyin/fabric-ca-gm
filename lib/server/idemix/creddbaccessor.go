@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/kisielk/sqlstruct"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

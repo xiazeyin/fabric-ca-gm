@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"time"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	logging "github.com/op/go-logging"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

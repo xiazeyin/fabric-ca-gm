@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 func (c *ClientCmd) newRegisterCommand() *cobra.Command {

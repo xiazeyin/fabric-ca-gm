@@ -9,8 +9,8 @@ package log
 import (
 	"strings"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // Constants defined for the different log levels

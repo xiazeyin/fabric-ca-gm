@@ -32,7 +32,7 @@ package ldap
 import (
 	"errors"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	log "github.com/xiazeyin/zcgolog/zclog"
 	ber "gopkg.in/asn1-ber.v1"
 )
 

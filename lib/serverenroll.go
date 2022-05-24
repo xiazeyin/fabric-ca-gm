@@ -11,17 +11,17 @@ import (
 	"encoding/pem"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

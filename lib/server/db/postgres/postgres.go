@@ -13,13 +13,13 @@ import (
 	"regexp"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq" // import to support Postgres
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // Postgres defines PostgreSQL database

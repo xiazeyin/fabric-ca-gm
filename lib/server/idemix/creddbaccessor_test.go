@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	dmocks "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix/mocks"
 	"github.com/kisielk/sqlstruct"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	dmocks "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix/mocks"
 )
 
 func TestInsertCredentialNilDB(t *testing.T) {

@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package db_test
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mocks"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/metricsfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mocks"
+	"github.com/xiazeyin/fabric-gm/common/metrics/metricsfakes"
 )
 
 var _ = Describe("metrics", func() {

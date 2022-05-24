@@ -15,21 +15,21 @@ import (
 	"strings"
 	_ "time" // for ocspSignerFromConfig
 
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/cli" // for ocspSignerFromConfig
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/ocsp" // for ocspSignerFromConfig
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/local"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	cspsigner "gitee.com/zhaochuninhefei/fabric-gm/bccsp/signer"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/utils"
-	gtls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	gx509 "gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	_ "github.com/xiazeyin/cfssl-gm/cli" // for ocspSignerFromConfig
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	_ "github.com/xiazeyin/cfssl-gm/ocsp" // for ocspSignerFromConfig
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/local"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	cspsigner "github.com/xiazeyin/fabric-gm/bccsp/signer"
+	"github.com/xiazeyin/fabric-gm/bccsp/utils"
+	gtls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/sm2"
+	gx509 "github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // GetDefaultBCCSP returns the default BCCSP

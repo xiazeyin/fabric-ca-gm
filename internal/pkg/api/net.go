@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/fabric-gm/idemix"
 )
 
 /*

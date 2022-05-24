@@ -21,12 +21,12 @@ import (
 	"net/url"
 	"path"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // ClientConfig is the fabric-ca client's config

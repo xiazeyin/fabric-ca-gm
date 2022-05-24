@@ -10,7 +10,7 @@ SPDX-License-Identifier: Apache-2.0
 package tools
 
 import (
-	_ "gitee.com/zhaochuninhefei/fabric-gm/common/metrics/cmd/gendoc"
+	_ "github.com/xiazeyin/fabric-gm/common/metrics/cmd/gendoc"
 	_ "github.com/AlekSi/gocov-xml"
 	_ "github.com/axw/gocov/gocov"
 	_ "golang.org/x/lint/golint"

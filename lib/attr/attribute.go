@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // AttributeControl interface gets the attributes associated with an identity

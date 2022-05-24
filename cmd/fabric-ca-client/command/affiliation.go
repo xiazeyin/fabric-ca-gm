@@ -19,10 +19,10 @@ package command
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	calog "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/log"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/spf13/cobra"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	calog "github.com/xiazeyin/fabric-ca-gm/internal/pkg/log"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 type affiliationArgs struct {

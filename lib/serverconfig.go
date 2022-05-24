@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package lib
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/operations"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/operations"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
 )
 
 const (

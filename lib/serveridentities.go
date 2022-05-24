@@ -12,14 +12,14 @@ import (
 	"os"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attr"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 func newIdentitiesEndpoint(s *Server) *serverEndpoint {

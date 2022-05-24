@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/cmd/fabric-ca-client/command"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/fabric-ca-gm/cmd/fabric-ca-client/command"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // The fabric-ca client main

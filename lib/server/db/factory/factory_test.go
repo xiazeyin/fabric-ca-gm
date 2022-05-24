@@ -10,11 +10,11 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/factory"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mysql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/postgres"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/factory"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mysql"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/postgres"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite"
 )
 
 func TestNew(t *testing.T) {

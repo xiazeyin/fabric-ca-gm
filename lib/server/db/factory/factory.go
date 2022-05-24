@@ -9,13 +9,13 @@ package factory
 import (
 	"context"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mysql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/postgres"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mysql"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/postgres"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp"
 )
 
 // DB is interface that defines the functions on a database

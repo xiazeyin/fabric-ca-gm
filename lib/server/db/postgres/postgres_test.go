@@ -10,12 +10,12 @@ import (
 	"context"
 	"path/filepath"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/postgres"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/postgres/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/postgres"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/postgres/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
 )
 
 const (

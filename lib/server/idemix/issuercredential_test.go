@@ -13,12 +13,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix/mocks"
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
 	proto "github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix/mocks"
+	"github.com/xiazeyin/fabric-gm/idemix"
 )
 
 const (

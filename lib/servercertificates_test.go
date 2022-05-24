@@ -15,21 +15,21 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/certificaterequest"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	dbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/metricsfakes"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/certificaterequest"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	dbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/fabric-gm/common/metrics/metricsfakes"
 )
 
 func TestCertificatesHandler(t *testing.T) {

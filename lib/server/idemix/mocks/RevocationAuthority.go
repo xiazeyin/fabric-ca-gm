@@ -8,10 +8,10 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
 	FP256BN "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
+	"github.com/xiazeyin/gmgo/sm2"
 
-	idemix "gitee.com/zhaochuninhefei/fabric-gm/idemix"
+	idemix "github.com/xiazeyin/fabric-gm/idemix"
 
 	mock "github.com/stretchr/testify/mock"
 )

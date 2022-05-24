@@ -23,7 +23,7 @@ endif
 
 DBUILD = docker build $(DOCKER_BUILD_FLAGS)
 
-DOCKER_NS ?= gcbaas-gm
+DOCKER_NS ?= gschain
 DOCKER_TAG=$(ARCH)-$(PROJECT_VERSION)
 
 DOCKER_GO_LDFLAGS += $(GO_LDFLAGS)

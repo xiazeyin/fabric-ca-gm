@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	calog "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/log"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/metadata"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	calog "github.com/xiazeyin/fabric-ca-gm/internal/pkg/log"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/metadata"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

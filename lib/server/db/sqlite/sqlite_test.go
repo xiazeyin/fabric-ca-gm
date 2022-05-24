@@ -11,10 +11,10 @@ import (
 	"errors"
 	"os"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite/mocks"
 )
 
 const (

@@ -14,21 +14,21 @@ import (
 	"net/mail"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/sw"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-gm/bccsp/sw"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // 使用CA作为签署者生成x509证书
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func createCertByCA(req signer.SignRequest, ca *CA) (cert []byte, err error) {
 	// zclog.Debugf("===== CA服务端开始做证书签名")
 	// zclog.Debugf("===== req : %#v\n", req.Subject)
@@ -101,7 +101,7 @@ func createCertByCA(req signer.SignRequest, ca *CA) (cert []byte, err error) {
 
 // 生成自签名的CA根证书
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func createRootCACert(key bccsp.Key, req *csr.CertificateRequest, priv crypto.Signer) (cert []byte, err error) {
 	zclog.Debugf("===== key类型 :%T", key)
 	// 生成标准的国密x509证书请求
@@ -134,7 +134,7 @@ func createRootCACert(key bccsp.Key, req *csr.CertificateRequest, priv crypto.Si
 
 // 补充OU信息
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func fillOUAndNotAfter(template *x509.Certificate, req signer.SignRequest) error {
 	subject := req.Subject
 	// zclog.Debugf("===== before template.Subject: %#v , subject: %#v", template.Subject, subject)
@@ -183,7 +183,7 @@ func fillOUAndNotAfter(template *x509.Certificate, req signer.SignRequest) error
 // 根据证书请求生成x509证书模板
 //  注意，生成的模板缺少证书期限，缺少扩展信息
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func createCertTemplateByCertificateRequest(csrBytes []byte) (template *x509.Certificate, err error) {
 	csrv, err := x509.ParseCertificateRequest(csrBytes)
 	if err != nil {
@@ -245,7 +245,7 @@ func createCertTemplateByCertificateRequest(csrBytes []byte) (template *x509.Cer
 
 // 生成标准的国密x509证书请求
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func createCertificateRequest(priv crypto.Signer, req *csr.CertificateRequest, key bccsp.Key) (csr []byte, err error) {
 	sigAlgo := signerAlgo(priv)
 	if sigAlgo == x509.UnknownSignatureAlgorithm {
@@ -282,7 +282,7 @@ func createCertificateRequest(priv crypto.Signer, req *csr.CertificateRequest, k
 
 // 检查并获取签名算法
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func signerAlgo(priv crypto.Signer) x509.SignatureAlgorithm {
 	switch priv.Public().(type) {
 	case *sm2.PublicKey:
@@ -294,7 +294,7 @@ func signerAlgo(priv crypto.Signer) x509.SignatureAlgorithm {
 
 // appendCAInfoToCSR appends CAConfig BasicConstraint extension to a CSR
 //
-// Deprecated: 国密证书的签署改为使用`gitee.com/zhaochuninhefei/cfssl-gm`
+// Deprecated: 国密证书的签署改为使用`github.com/xiazeyin/cfssl-gm`
 func appendCAInfoToCSR(reqConf *csr.CAConfig, csreq *x509.CertificateRequest) error {
 	pathlen := reqConf.PathLength
 	if pathlen == 0 && !reqConf.PathLenZero {

@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	log "github.com/xiazeyin/zcgolog/zclog"
 	ber "gopkg.in/asn1-ber.v1"
 )
 

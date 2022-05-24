@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/cmd/fabric-ca-client/command"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/metadata"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/fabric-ca-gm/cmd/fabric-ca-client/command"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	"github.com/xiazeyin/fabric-ca-gm/lib/metadata"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

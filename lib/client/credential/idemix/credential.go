@@ -10,15 +10,15 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	idemix "gitee.com/zhaochuninhefei/fabric-gm/idemix"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/golang/protobuf/proto"
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	idemix "github.com/xiazeyin/fabric-gm/idemix"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

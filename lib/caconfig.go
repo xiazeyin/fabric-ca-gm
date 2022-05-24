@@ -9,15 +9,15 @@ package lib
 import (
 	"time"
 
-	// "gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/ldap"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
+	// "github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/ldap"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
 )
 
 const (

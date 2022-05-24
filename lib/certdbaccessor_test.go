@@ -15,21 +15,21 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/certificaterequest"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	cadbuser "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	"gitee.com/zhaochuninhefei/fabric-gm/common/metrics/metricsfakes"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/certificaterequest"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	cadbuser "github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	"github.com/xiazeyin/fabric-gm/common/metrics/metricsfakes"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 func TestGetCertificatesDB(t *testing.T) {

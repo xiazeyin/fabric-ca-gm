@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package sqlite
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/user"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/user"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // Migrator defines migrator

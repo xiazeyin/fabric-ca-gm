@@ -9,9 +9,9 @@ package attrmgr_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attrmgr"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attrmgr"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // TestAttrs tests attributes

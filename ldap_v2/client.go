@@ -3,7 +3,7 @@ package ldap
 import (
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // Client knows how to interact with an LDAP server

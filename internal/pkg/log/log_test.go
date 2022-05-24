@@ -9,8 +9,8 @@ package log
 import (
 	"testing"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/stretchr/testify/assert"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 func TestSetDefaultLogLevel(t *testing.T) {

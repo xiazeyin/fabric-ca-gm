@@ -13,14 +13,14 @@ import (
 	"regexp"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/go-sql-driver/mysql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/tls"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/go-sql-driver/mysql"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/tls"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 var (

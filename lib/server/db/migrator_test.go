@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 var _ = Describe("migrator", func() {

@@ -50,7 +50,7 @@ endif
 
 PG_VER=11
 
-PKGNAME = gitee.com/zhaochuninhefei/fabric-ca-gm
+PKGNAME = github.com/xiazeyin/fabric-ca-gm
 
 METADATA_VAR = Version=$(PROJECT_VERSION)
 
@@ -80,7 +80,7 @@ docker: $(patsubst %,build/image/%/$(DUMMY), $(IMAGES))
 
 docker-fvt: $(patsubst %,build/image/%/$(DUMMY), $(FVTIMAGE))
 
-checks: license vet lint format imports
+checks: vet lint format imports
 
 license: .FORCE
 	@scripts/check_license

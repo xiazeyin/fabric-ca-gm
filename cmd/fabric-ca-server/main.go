@@ -19,7 +19,7 @@ package main
 import (
 	"os"
 
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 var (

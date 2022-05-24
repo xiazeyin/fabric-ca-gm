@@ -10,14 +10,14 @@ import (
 	"bytes"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	"gitee.com/zhaochuninhefei/fabric-gm/idemix"
-	ecdsa "gitee.com/zhaochuninhefei/gmgo/sm2"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	fp256bn "github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	"github.com/xiazeyin/fabric-gm/idemix"
+	ecdsa "github.com/xiazeyin/gmgo/sm2"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	sql "database/sql"
 	sync "sync"
 
-	db "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
 	sqlx "github.com/jmoiron/sqlx"
+	db "github.com/xiazeyin/fabric-ca-gm/lib/server/db"
 )
 
 type SqlxTx struct {

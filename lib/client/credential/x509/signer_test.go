@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/x509"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/client/credential/x509"
 )
 
 func TestNewSignerError(t *testing.T) {

@@ -13,11 +13,11 @@ import (
 	"path"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/pkcs11"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	"github.com/xiazeyin/fabric-gm/bccsp/pkcs11"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // ConfigureBCCSP configures BCCSP, using

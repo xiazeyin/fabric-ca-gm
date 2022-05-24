@@ -19,13 +19,13 @@ package command
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	calog "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/log"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	calog "github.com/xiazeyin/fabric-ca-gm/internal/pkg/log"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 type identityArgs struct {

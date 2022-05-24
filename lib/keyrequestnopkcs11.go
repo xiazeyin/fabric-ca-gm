@@ -10,8 +10,8 @@ SPDX-License-Identifier: Apache-2.0
 package lib
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	"github.com/xiazeyin/fabric-gm/bccsp"
 )
 
 // GetKeyRequest constructs and returns api.KeyRequest object based on the bccsp

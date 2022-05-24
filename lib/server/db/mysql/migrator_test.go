@@ -9,11 +9,11 @@ package mysql_test
 import (
 	"errors"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mysql"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/mysql/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mysql"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/mysql/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 var _ = Describe("Migrator", func() {

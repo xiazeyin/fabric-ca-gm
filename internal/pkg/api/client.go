@@ -9,9 +9,9 @@ package api
 import (
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-gm/bccsp"
 )
 
 // RegistrationRequest for a new identity

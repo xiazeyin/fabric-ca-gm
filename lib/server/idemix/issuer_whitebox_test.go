@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 const (

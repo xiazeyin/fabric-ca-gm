@@ -11,13 +11,13 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/caerrors"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/api"
+	"github.com/xiazeyin/fabric-ca-gm/lib/caerrors"
 )
 
 var handlerError error

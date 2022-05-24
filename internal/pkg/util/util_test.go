@@ -18,13 +18,13 @@ import (
 	"strings"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
 )
 
 // TODO(mjs): So many tests that aren't. These need to be reviewed to ensure

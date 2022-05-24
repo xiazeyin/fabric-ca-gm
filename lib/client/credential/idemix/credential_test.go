@@ -13,12 +13,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	lib "gitee.com/zhaochuninhefei/fabric-ca-gm/lib"
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/client/credential/idemix"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/idemix"
 	"github.com/stretchr/testify/assert"
+	lib "github.com/xiazeyin/fabric-ca-gm/lib"
+	. "github.com/xiazeyin/fabric-ca-gm/lib/client/credential/idemix"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/idemix"
 )
 
 const (

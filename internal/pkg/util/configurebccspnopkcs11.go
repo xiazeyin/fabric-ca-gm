@@ -12,10 +12,10 @@ package util
 import (
 	"path"
 
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // ConfigureBCCSP configures BCCSP, using

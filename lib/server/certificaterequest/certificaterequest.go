@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/api"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/api"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // CertificateRequest defines the properties of a certificate request

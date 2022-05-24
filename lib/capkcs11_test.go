@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	dbutil "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/pkcs11"
+	dbutil "github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
+	"github.com/xiazeyin/fabric-gm/bccsp/pkcs11"
 )
 
 func TestCAInit(t *testing.T) {

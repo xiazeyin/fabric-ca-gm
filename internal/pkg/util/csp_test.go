@@ -13,13 +13,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp/factory"
+	. "github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-gm/bccsp"
+	"github.com/xiazeyin/fabric-gm/bccsp/factory"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 var csp bccsp.BCCSP

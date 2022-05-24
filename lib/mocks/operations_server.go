@@ -4,8 +4,8 @@ package mocks
 import (
 	sync "sync"
 
-	healthz "gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
-	metrics "gitee.com/zhaochuninhefei/fabric-gm/common/metrics"
+	healthz "github.com/xiazeyin/fabric-config-gm/healthz"
+	metrics "github.com/xiazeyin/fabric-gm/common/metrics"
 )
 
 type OperationsServer struct {

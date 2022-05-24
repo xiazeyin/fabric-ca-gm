@@ -3,7 +3,7 @@
 package mocks
 
 import context "context"
-import db "gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db"
+import db "github.com/xiazeyin/fabric-ca-gm/lib/server/db"
 import mock "github.com/stretchr/testify/mock"
 import sql "database/sql"
 import sqlx "github.com/jmoiron/sqlx"

@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	. "github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
 )
 
 // A test struct

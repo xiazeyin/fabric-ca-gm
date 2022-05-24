@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cfsslapi "gitee.com/zhaochuninhefei/cfssl-gm/api"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
 	"github.com/pkg/errors"
+	cfsslapi "github.com/xiazeyin/cfssl-gm/api"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // Error codes

@@ -9,11 +9,11 @@ package sqlite_test
 import (
 	"errors"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/sqlite/mocks"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/server/db/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/sqlite/mocks"
+	"github.com/xiazeyin/fabric-ca-gm/lib/server/db/util"
 )
 
 var _ = Describe("Migrator", func() {

@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package x509
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/internal/pkg/util"
-	"gitee.com/zhaochuninhefei/fabric-ca-gm/lib/attrmgr"
-	"gitee.com/zhaochuninhefei/fabric-gm/bccsp"
 	"github.com/pkg/errors"
+	"github.com/xiazeyin/fabric-ca-gm/internal/pkg/util"
+	"github.com/xiazeyin/fabric-ca-gm/lib/attrmgr"
+	"github.com/xiazeyin/fabric-gm/bccsp"
 )
 
 // NewSigner is constructor for Signer
